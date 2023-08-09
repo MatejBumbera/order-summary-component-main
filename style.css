@@ -1,6 +1,16 @@
 body {
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 section {
     background-color: hsl(225, 100%, 98%);
@@ -14,10 +24,49 @@ section a {
 }
 p {
     color: hsl(224, 23%, 55%);
+    margin: 0rem 4rem;
+    line-height: 1.6rem;
 }
 #cancel {
-    color:hsl(245, 75%, 52%);
+   
 }
 main {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    width: 90%;
+    height: 690px;
+    text-align: center;
+    border-radius: 20px;
+}
+h1 {
+    margin: 3rem 0 1rem 0;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: hsl(223, 47%, 23%);
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 360px;
+    width: 85%;
+    height: 100px;
+    margin: 1.3rem 0 ;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+button {
+    max-width: 360px;
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    box-shadow: 0.1rem 1rem 1rem hsla(245, 75%, 52%, 0.209);
+    margin: 0.5rem 0;
 }
