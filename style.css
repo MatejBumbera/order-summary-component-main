@@ -1,0 +1,23 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+section {
+    background-color: hsl(225, 100%, 98%);
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+section a {
+    color: hsl(245, 75%, 52%);
+}
+p {
+    color: hsl(224, 23%, 55%);
+}
+#cancel {
+    color:hsl(245, 75%, 52%);
+}
+main {
+    background-color: white;
+}
