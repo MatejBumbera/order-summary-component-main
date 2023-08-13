@@ -15,10 +15,6 @@ body {
 section {
     background-color: hsl(225, 100%, 98%);
 }
-button{
-    background-color: hsl(245, 75%, 52%);
-    color: white;
-}
 section a {
     color: hsl(245, 75%, 52%);
 }
@@ -34,6 +30,7 @@ main {
     align-items: center;
     max-width: 450px;
     width: 90%;
+    min-height: 650px;
     height: 87%;
     max-height: 690px;
     text-align: center;
@@ -51,7 +48,7 @@ section {
     justify-content: space-around;
     max-width: 360px;
     width: 85%;
-    height: 100px;
+    min-height: 100px;
     margin: 1.3rem 0 ;
     align-items: center;
     border-radius: 10px;
@@ -67,6 +64,25 @@ button {
     font-size: 0.9rem;
     box-shadow: 0.1rem 1.2rem 0.7rem hsla(245, 75%, 52%, 0.113);
     margin: 0.6rem 0;
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+button:hover {
+    background-color: hsl(245, 64%, 66%);
+}
+a:hover {
+   text-decoration: none;
+   color: hsl(245, 64%, 66%);
+}
+#cancel {
+    margin-top: 0.7rem; 
+    font-size: 0.9rem; 
+    font-weight: 700;
+    cursor: pointer;
+}
+#cancel:hover {
+    color: black;
 }
 
 @media only screen and (max-width: 375px){
